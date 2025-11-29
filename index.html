@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+</head>
+<body>
+    <div class="login">
+     <label for="email">Enter email:</label>   
+    <input type="email" id="email" placeholder="Enter email_id"><br>
+    <label for="password">Enter password:</label>   
+    <input type="password" id="password" placeholder="Enter your password"><br>
+    <button id="Loginbutton">Login </button>
+    <p class="fix">Use
+        <code>admin@gmail.com</code>
+        <code>admin1234</code>
+    </p>
+</div>
+        <button  onclick="window.html.location.href"="admin.html">Go to Admin page</button>
+        <script>
+            document.getElementById(Loginbutton).addEventListener('click',function(){
+                const email=document.getElementById(email).value;
+                const password=document.getElementById(password).value;
+                if(email==admin@gmail.com && password==admin1234){
+                    alert("Login Sucess")
+                    window.location.href='admin.html';
+                }else{
+                    alert("Wrong Email or password");
+                }
+            });
+        </script>
+</body>
+
+</html>
