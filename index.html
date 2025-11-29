@@ -17,19 +17,20 @@
         <code>admin1234</code>
     </p>
 </div>
-        <button  onclick="window.html.location.href"="admin.html">Go to Admin page</button>
-        <script>
+</body>
+      <script>
             document.getElementById(Loginbutton).addEventListener('click',function(){
                 const email=document.getElementById(email).value;
                 const password=document.getElementById(password).value;
-                if(email==admin@gmail.com && password==admin1234){
-                    alert("Login Sucess")
+                if(email=='admin@gmail.com' && password=='admin1234'){
+                    alert("Login Sucess");
                     window.location.href='admin.html';
                 }else{
                     alert("Wrong Email or password");
                 }
             });
+            document.getElementById("Loginbutton").addEventListener("click",()=>{
+                window.location.href='admin.html'
+            });
         </script>
-</body>
-
 </html>
