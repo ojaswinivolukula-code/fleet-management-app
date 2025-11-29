@@ -8,7 +8,29 @@
 <body>
     <header class="Navbar">
         <div class="brand">Fleet app Admin dashboard</div>
-        
+        <div class="filters">
+            <div class="filterby">
+                <label>Category</label>
+                <select id="filtercategory">
+                    <option value="ALL">ALL</option>
+                    <option value="Auto">Auto</option>
+                    <option value="Car">Car</option>
+                    <option value="Truck">Truck</option>
+                    <option value="Bus">Bus</option>
+                </select>
+            </div>
+            <div class="filtergroup">
+                <label>Availability</label>
+                <select id="filteravailability">
+                    <option value="ALL">All</option>
+                    <option value="Available">Available</option>
+                    <option value="UnAvailable">UnAvailable</option>
+
+                </select>
+            </div>
+            <button id="clearbutton">Clear filters</button>
+        </div>
     </header>
+    
 </body>
 </html>
